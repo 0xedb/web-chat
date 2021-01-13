@@ -1,0 +1,4 @@
+.app {
+  background-color: var(--bg);
+  min-width: var(--mwidth);
+}

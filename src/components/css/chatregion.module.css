@@ -1,0 +1,15 @@
+.chat {
+  background-color: var(--bg2);
+  /* border-radius: 12px; */
+  width: 900px;
+  max-width: 1000px;
+  grid-template-rows: auto 1fr auto;
+}
+
+.backdrop {
+  z-index: 10 !important;
+}
+
+.head {
+  border-bottom: 2px solid var(--headline);
+}

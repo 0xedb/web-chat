@@ -1,0 +1,28 @@
+.list::-webkit-scrollbar {
+  width: 4px;
+}
+
+.list:hover::-webkit-scrollbar-thumb {
+  background: var(--paragraph);
+}
+
+.msg,
+.rpl {
+  max-width: 300px;
+  word-break: break-all;
+  color: white;
+}
+
+.msg {
+  background-color: #121629;
+  border-radius: 1em 1em 0 1em;
+}
+
+.rpl {
+  background-color: #293572;
+  border-radius: 1em 1em 1em 0;
+}
+
+.right {
+    text-align: right;
+}

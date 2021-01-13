@@ -1,0 +1,4 @@
+.loader {
+  width: clamp(180px, 200px, 250px);
+  border-radius: 4px;
+}
