@@ -1,10 +1,8 @@
 import style from "./css/chatregion.module.css";
 import Backdrop from "@material-ui/core/Backdrop";
-import Avatar from "@material-ui/core/Avatar";
-import ArrowBackIosRoundedIcon from "@material-ui/icons/ArrowBackIosRounded";
+import Avatar from "@material-ui/core/Avatar"; 
 import { UserDetails } from "../store/store";
-import { useContext, useState } from "react";
-import TextField from "@material-ui/core/TextField";
+import { useContext, useState } from "react"; 
 import ChatEntry from "./ChatEntry";
 import ChatList from "./ChatList";
 

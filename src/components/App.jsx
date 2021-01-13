@@ -2,9 +2,8 @@ import AppLoad from "./AppLoad";
 import Chat from "./Chat";
 import style from "./css/app.module.css";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { UserDetails } from "../store/store";
-import { useRouter } from "next/router";
 
 const user = {
   user: {},

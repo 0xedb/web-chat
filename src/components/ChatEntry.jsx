@@ -2,8 +2,6 @@ import TextField from "@material-ui/core/TextField";
 import io from "socket.io-client";
 import { useEffect } from "react";
 
-function sendMsg() {}
-
 export default function ChatEntry({ setChat }) {
   const socket = io(`http://localhost:2021`);
 
